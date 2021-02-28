@@ -297,8 +297,23 @@
             font-family: litine;
             font-size: 20px;
             color: #404040;
+            animation : mempelai 5s infinite;
+        }
+        
+        @keyframes mempelai{
+            from {color : #404040;}
+            to {color : #ECAE37;}
         }
 
+        .yearstory
+        {
+            animation : year 5s infinite;
+        }
+
+        @keyframes year{
+            from {color : #404040;}
+            to {color : #ECAE37;}
+        }
         .fontfront {
             font-family: aldine;
             font-size: 70px;
@@ -724,6 +739,22 @@
         }
     }
 
+
+    .lineanim{
+        background:#404040; 
+        height:1.1px; 
+        margin-left: auto; 
+        margin-right: auto;
+        animation : lineone 3s infinite;
+    }
+
+    @keyframes lineone {
+    from {width: 0px;}
+    to {width: 120px;}
+    }
+
+
+
     </style>
 
     <script type='text/javascript'>
@@ -978,6 +1009,8 @@
             <br>
             <h3 style="font-family: Angelface; font-size: 35px; color: #404040">Event</h3>
             <p class="explainbride">The Happy Day!</p>
+            
+            <p class="lineanim"></p>
             <br>
             <p style="font-family: dosis; color: #404040">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami mengundang Bapak/Ibu/Saudara(i) untuk menghadiri acara pernikahan putra-putri kami</p>
 
@@ -1045,7 +1078,7 @@
                                 </tr> -->
                                 <tr>
                                     <td></td>
-                                    <td><i class="fa fa-calendar"></i></td>
+                                    <td><i class="fa fa-calendar" style="padding-right:5px;"></i></td>
                                     <td>Jum'at, 19 Maret 2021</td>
                                 </tr>
                                 <tr>
@@ -1055,7 +1088,7 @@
                                 </tr>
                                 <tr>
                                    <td></td>
-                                   <td><i class="fa fa-clock-o"></i></td>
+                                   <td><i class="fa fa-clock-o" style="padding-right:5px;"></i></td>
                                    <td>08.00 WIB</td>
                                 </tr>
                                 <tr>
@@ -1065,7 +1098,7 @@
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td><i class="fa fa-map-marker"></i></td>
+                                    <td><i class="fa fa-map-marker" style="padding-right:5px;"></i></td>
                                     <td>di Kediaman Mempelai Wanita</td>
                                 </tr>
                                 <tr>
@@ -1110,7 +1143,7 @@
                                     </tr>
                                     <tr align="right">
                                         <td>Jum'at, 19 Maret 2021</td>
-                                        <td><i class="fa fa-calendar"></i></td>
+                                        <td><i class="fa fa-calendar" style="padding-left:5px;"></i></td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -1120,7 +1153,7 @@
                                     </tr>
                                     <tr align="right">
                                         <td>09.00 WIB - Selesai</td>
-                                        <td><i class="fa fa-clock-o"></i></td>
+                                        <td><i class="fa fa-clock-o" style="padding-left:5px;"></i></td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -1130,7 +1163,7 @@
                                     </tr>
                                     <tr align="right">
                                         <td>di Kediaman Mempelai Wanita</td>
-                                        <td><i class="fa fa-map-marker"></i></td>
+                                        <td><i class="fa fa-map-marker" style="padding-left:5px;"></i></td>
                                         <td></td>
                                     </tr>
                                     <tr align="right">
@@ -1164,44 +1197,7 @@
                     </div>
               </div>
             </div>
-        </div>  
-        <!-- <div class="containerngunduhwd">
-                <div>
-                    <p style="font-size: 18px; font-family: dosis; padding-top: 20px"><b>Ngunduh Mantu</b></p>
-                </div>
-
-                <table>
-                    <tr>
-                        <td><i class="fa fa-calendar"></i></td>
-                        <td>Sabtu, 22 februari 2020</td>
-                    </tr>
-                    <tr>
-                        <td><br></td>
-                        <td><br></td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa fa-clock-o"></i></td>
-                        <td>11.00 - 13.00 WIB</td>
-                    </tr>
-                    <tr>
-                        <td><br></td>
-                        <td><br></td>
-                    </tr>
-                    <tr>
-                        <td><i class="fa fa-map-marker"></i></td>
-                        <td>Aula Supar-Yon Arhanudri 1 Pakualam,</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Serpong utara,</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Tangerang</td>
-                    </tr>
-                </table>
-            </div> -->
-  
+        </div>   
                     
             <div style="clear:both"></div>
 
@@ -1338,8 +1334,7 @@
             </div>
 <div class="content4pad">
             <br>
-            <h3 style="font-family: Angelface; font-size: 35px; color: #404040">Quote</h3>
-            <p class="explainbride">Kutipan Kebahagiaan Devi-Abtohi</p>
+            <h3 style="font-family: Angelface; font-size: 35px; color: #404040;">Our Love Story</h3>
             <p class="explainbride">--</p>
             <p class="explainbride">Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.</p>
             <p class="explainbride"><b>QS. Ar-Rum: 21</b></p>
@@ -1348,27 +1343,27 @@
             <!-- !PAGE CONTENT! -->
             <div class="w3-main w3-content" style="max-width:1600px;margin-top:20px">
 
-                <!-- <div class="explainbride" style=""> -->
-                    <!-- < --><!-- p>
+                <!-- <div class="explainbride" style="">
+                    <p>
                         Ya Allah limpahkan kepada kami <br> cinta yang kau jadikan pengikat rindu Rasulullah <br> dan Khodijah yang engkau jadikan <br> mata air kasih sayang Imam Ali dan Fatimah Az-Zahra.
-                    </p> -->
-                    <!-- <p>
+                    </p>
+                    <p>
                         Jika kami hadirkan di dunia ini untuk <br> engkau pertemukan satukanlah hati kami <br> dalam naungan kasih sayang-Mu. <br> Mudahkanlah segala urusan kami serta <br> berikan bimbingan-Mu dalam setiap <br> kesulitan yang kami temui. <br> Berilah kami rizki dari anugerah-Mu yang luas, <br> rizki yang bisa mengantar kami pada <br> cita-cita di dunia dan di akhirat.
-                    </p> -->
-                    <!-- <p>
+                    </p>
+                    <p>
                         Semoga tidak hanya Engkau pertemukan <br> kami di dunia ini, namun engkau akan <br> menyatukan kami kembali di akhirat <br> dalam surga ridho-Mu.
-                    </p> -->
-                    <!-- <p>
+                    </p>
+                    <p>
                         Ya Allah, sempurnakanlah kebahagiaan <br> kami dengan menjadikan pernikahan ini <br> sebagai ibadah kepada-Mu serta bukti <br> pengikutan dan cinta kami kepada sunnah Rasul-Mu.
-                    </p> -->
-                </div>
+                    </p>
+                </div> -->
                 <!-- timeline start -->
-                <p class="explainbride" style="font-family: Angelface; font-size: 30px;">Our Love Story</p>
+                
                 <div class="timeline">
                       <div class="container left">
                         <div class="content">
                             <div class="bg1content">
-                              <h2><span style="font-size: 14px"></span>2013</h2>
+                              <h2 class="yearstory"><span style="font-size: 14px"></span>2013</h2>
                               <p>"Pertama kali kami bertemu di kampus Universitas Islam Indonesia (UII), kuliah dalam satu gedung Fakultas MIPA dan satu jurusan Statistika, kami tidak berkenalan secara langsung karena berbeda kelas."</p>
                             </div>
                         </div>
@@ -1376,7 +1371,7 @@
                       <div class="container right">
                         <div class="content">
                             <div class="bg1content">
-                              <h2><span style="font-size: 14px"></span>2017</h2>
+                              <h2 class="yearstory"><span style="font-size: 14px"></span>2017</h2>
                               <p>"Selama masa kuliah terkadang kami hanya bertegur sapa sesaat jika kebetulan berpapasan di jalan, tidak ada kedekatan dan tidak ada hubungan, hingga akhirnya kami lulus di tahun yang sama dan masing-masing bekerja di tempat dan pulau yang berbeda."</p>
                             </div>
                         </div>
@@ -1384,7 +1379,7 @@
                       <div class="container left">
                         <div class="content">
                             <div class="bg1content">
-                              <h2><span style="font-size: 14px"></span>2020</h2>
+                              <h2 class="yearstory"><span style="font-size: 14px"></span>2020</h2>
                               <p>"Setelah tiga tahun lebih berlalu, tidak pernah bertemu, momen mengejutkan ketika Abtohi mengirim pesan pribadi melalui akun sosial media. Itulah awal mula Abtohi bertanya banyak hal mengenai visi misi, adat istiadat, dan lain sebagainya. Hingga kami menemukan kecocokan satu sama lain dan Abtohi menyatakan keseriusan untuk mengajak saya menikah."</p>
                             </div>
                         </div>
@@ -1392,7 +1387,7 @@
                       <div class="container right">
                         <div class="content">
                             <div class="bg1content">
-                              <h2><span style="font-size: 14px"></span>2021</h2>
+                              <h2 class="yearstory"><span style="font-size: 14px"></span>2021</h2>
                               <p>"Abtohi bersama keluarga datang ke rumah untuk melamar saya, dan sebulan setelahnya tiba di hari kebahagiaan kami, kami akan memulai membangun rumah tangga bersama, semoga Allah selalu memberikan keberkahan dan kebahagiaan untuk kami."</p>
                             </div>
                         </div>
@@ -1465,7 +1460,6 @@
     </div>
 
     <script>
-
 
 
         // %20 mean space in link
@@ -1597,7 +1591,7 @@
     </script>
     <script type="text/javascript" src="atemplate/jquery-1.10.1.min.js"></script>
 
-<!--     <script>
+    <script>
         //Get the button
         var mybutton = document.getElementById("myBtn4");
 
@@ -1612,7 +1606,7 @@
           }
         }
 
-    </script> -->
+    </script>
 
 
 
