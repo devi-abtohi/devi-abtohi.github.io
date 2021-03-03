@@ -1554,7 +1554,8 @@ var logoovo     = document.getElementById("logoovo");
 var logolinkaja = document.getElementById("logolinkaja");
 var movo        = document.getElementById("modal-ovo")
 var mlinkaja    = document.getElementById("modal-linkaja")
-var span        = document.getElementsByClassName("closemodal")[0];
+var spanovo     = document.getElementsByClassName("closemodal")[0]
+var spanlinkaja = document.getElementsByClassName("closemodal")[1]
 
 logoovo.onclick = function() {
   modal.style.display    = "block";
@@ -1568,13 +1569,23 @@ logolinkaja.onclick      = function() {
   mlinkaja.style.display = "block"
 }
 
-span.onclick = function() {
+spanovo.onclick = function() {
   modal.style.display    = "none";
+  movo.style.display     = "none";
+  mlinkaja.style.display = "none";
+}
+
+spanlinkaja.onclick = function() {
+  modal.style.display    = "none";
+  movo.style.display     = "none";
+  mlinkaja.style.display = "none";
 }
 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display    = "none";
+    movo.style.display     = "none";
+    mlinkaja.style.display = "none";
   }
 }
 
