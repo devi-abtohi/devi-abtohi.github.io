@@ -752,7 +752,77 @@
     to {width: 120px;}
     }
 
+/* Ngetes */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closemodal {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closemodal:hover,
+.closemodal:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: white;
+  color: black;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: white;
+  color: black;
+}
+/* Ngetes */
 
     </style>
 
@@ -1103,7 +1173,7 @@
                                 <tr>
                                    <td></td>
                                    <td></td>
-                                   <td>Desa Sipare-Pare Tengah, Desa VI (Kampung Enam)</td>
+                                   <td>Desa Sipare-Pare Tengah, Dusun VI (Kampung Enam)</td>
                                 </tr>
                                 <tr>
                                    <td></td>
@@ -1166,7 +1236,7 @@
                                         <td></td>
                                     </tr>
                                     <tr align="right">
-                                        <td>Desa Sipare-Pare Tengah, Desa VI (Kampung Enam),</td>
+                                        <td>Desa Sipare-Pare Tengah, Dusun VI (Kampung Enam),</td>
                                         <td></td>
                                         <td></td>
                                     </tr>
@@ -1393,14 +1463,51 @@
                     <p>Bank BCA</p>
                     <p>No. Rekening, Atas Nama</p>
                     <p style="margin-bottom: 10px; padding-bottom: 20px; color:#BD742E"><b id="rek">2720072591</b>, <b>Slamet Abtohi</b></p>
-             
-                    <input type="button" onclick="copyrek()" value="Salin Nomor Rekening" id="copyclipboard" style="margin-bottom:30px;">
-                    <br>
-                    <p><b>-Terima kasih-</b></p>
-                    <br>
+                    <input type="button" onclick="copyrek()" value="Salin Nomor Rekening" id="copyclipboard" style="margin-bottom:10px;">
+                    <br><br>
+                    <p>atau melalui :</p>
+                    <p><b>E-Wallet</b></p><br>
+                        <img src="./images/logo-ovo.png" width="80px" height="32.96px" style="margin-right:20px;" id="logoovo">
+                        <img src="./images/linkaja.png" width="80px" height="24.36548223px" id="logolinkaja">
+                    <br><br>
+                    <p><b>-Terima kasih-</b></p><br>
                 </div>
 
                 <br>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div id="modal-ovo">
+            <div class="modal-header">
+                <span class="closemodal">&times;</span>
+                <h4><b>OVO</b></h4>
+                <p>Silahkan scan qrcode berikut :</p>
+            </div>
+            <div class="modal-body">
+                <img src="./images/ovoqr.jpg" width="80%">
+            </div>
+            <div class="modal-footer">
+                <p>0821-1253-8367</p>
+            </div>
+        </div>
+
+        <div id="modal-linkaja">
+                <div class="modal-header">
+                    <span class="closemodal">&times;</span>
+                    <h4><b>LinkAja</b></h4>
+                    <p>Silahkan scan qrcode berikut :</p>
+                </div>
+                <div class="modal-body">
+                    <img src="./images/linkajaqr.jpg" width="80%">
+                </div>
+                <div class="modal-footer">
+                    <p>0821-1253-8367</p>
+                </div>
+        </div>
+    </div>
+</div>
+
                 <div class="">
                     <p class="explainbride">Ucapan Selamat & Doa untuk<h4 style="color: #404040; font-size: 30px; font-family: Angelface;">Devi & Abtohi</h4></p>
                 </div>
@@ -1440,6 +1547,35 @@
 
     <script>
 
+// Get the modal
+var modal       = document.getElementById("myModal");
+var logoovo     = document.getElementById("logoovo");
+var logolinkaja = document.getElementById("logolinkaja");
+var movo        = document.getElementById("modal-ovo")
+var mlinkaja    = document.getElementById("modal-linkaja")
+var span        = document.getElementsByClassName("closemodal")[0];
+
+logoovo.onclick = function() {
+  modal.style.display    = "block";
+  movo.style.display     = "block"
+  mlinkaja.style.display = "none";
+}
+
+logolinkaja.onclick      = function() {
+  modal.style.display    = "block";
+  movo.style.display     = "none";
+  mlinkaja.style.display = "block"
+}
+
+span.onclick = function() {
+  modal.style.display    = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display    = "none";
+  }
+}
 
         // %20 mean space in link
         // If you already had an array then you just join them with '%20'
