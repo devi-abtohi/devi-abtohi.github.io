@@ -1,0 +1,1742 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./site.webmanifest">
+
+    <meta charset="UTF-8">
+    <title>The Wedding of Devi & Abtohi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="Spesial mengundang untuk menghadiri pernikahan kami." />
+    <meta name="keywords" content="undangan digital, undangan online, undangan nikah, website undangan, pernikahan, wedding, marriage" />
+    <meta name="author" content="Devi Kumala Sari & Slamet Abtohi" />
+    <meta name="robots" content="follow, index" />
+    
+    <meta property="og:title" content="The Wedding of Devi & Abtohi" />
+    <meta property="og:description" content="Jum'at, 19 Maret 2021" />
+    <meta property="og:url" content="https://deviabtohi.github.io" />
+    <meta property="og:image" itemprop="image" content="https://raw.githubusercontent.com/deviabtohi/deviabtohi.github.io/main/images/thumbnailweb.jpg" />
+    <meta property="og:site_name" content="Wedding Invitation" />
+    <meta property="og:type" content="website" /> 
+
+    <link rel="stylesheet" href="w3style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="./atemplate/jquery-1.8.2.js"></script>
+       <style type="text/css">
+            #overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                filter:alpha(opacity=70);
+                -moz-opacity:0.7;
+                -khtml-opacity: 0.7;
+                opacity: 0.7;
+                z-index: 100;
+                display: none;
+            }
+            .cnt223 a{
+                text-decoration: none;
+            }
+            .popup{
+                width: 100%;
+                margin: 0 auto;
+                display: none;
+                position: fixed;
+                z-index: 101;
+            }
+            .cnt223{
+               /* min-width: 600px;*/
+                width: 100%;
+                min-height: 150px;
+                margin: 100px auto;
+                background-image: url("./assets/bgatexture.jpg");
+                background-position: center;
+                position: relative;
+                z-index: 103;
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px #000;
+            }
+            .cnt223 p{
+                clear: both;
+                color: #555555;
+                text-align: center;
+            }
+            .cnt223 p a{
+                background-color: #39473d;
+                text-align: center;
+                padding: 20px 30px;
+                margin: auto;
+                color: white;
+                font-weight: bold;
+                border-radius: 5px;
+            }
+            .cnt223 p img {
+                text-align: center;
+                margin: auto;
+            }
+            .cnt223 .x{
+                float: right;
+                height: 35px;
+                left: 22px;
+                position: relative;
+                top: -25px;
+                width: 34px;
+            }
+            .cnt223 .x:hover{
+                cursor: pointer;
+            }
+
+            .imgopenint img {
+                width: 100px;
+            }
+
+            @media  screen and (min-width: 600px) {
+            .imgopenint img {
+                width: 100px;
+            }
+        }
+
+        </style>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        .w3-half img{
+            margin-bottom: -6px;
+            cursor: pointer
+            z-index: -99;
+        }
+
+        .w3-half img:hover{opacity: 0.6; transition: 0.3s}
+
+
+        /* Set height of body and the document to 100% */
+        body,
+        html {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        @font-face{
+        src: url('./atemplate/Litine.ttf');
+        font-family: litine;
+        }
+
+
+        @font-face{
+            src: url('./atemplate/Angelface.otf');
+            font-family: Angelface;
+            }
+
+        @font-face{
+            src: url('./atemplate/dosis.ttf');
+            font-family: dosis;
+        }
+
+        @font-face{
+            src: url('./atemplate/Aldine.ttf');
+            font-family: aldine;
+        }
+
+        .iconbar {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            /* background-color: #bababa; */
+            background-color: #172740;
+            overflow: auto;
+            z-index: 999999;
+        }
+
+        .iconbar a {
+            float: left;
+            width: 25%;
+            text-align: center;
+            padding-bottom: 5px;
+            color: white;
+            font-size: 30px;
+            transition: all 0.3s ease;
+        }
+
+        /* Style tab links */
+        .tablink {
+            background-image: url("./assets/bgatexture.jpg");
+            background-position: center;
+            color: white;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: 17px;
+            width: 20%;
+
+        }
+
+        .tablink:hover {
+            opacity: 0.9;
+            /*background-color: #777;*/
+        }
+
+
+        /* Style the tab content (and add height:100% for full page content) */
+        .tabcontent {
+            color: black;
+            text-align: center;
+            display: none;
+            /* padding: 30px 20px; */
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 100%;
+            position: relative;
+        }
+
+
+        .corner1{
+            width: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+        }
+
+        .corner2{
+            width: 200px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 9;
+        }
+
+        .corner3{
+            width: 200px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 9;
+        }
+
+        .corner4{
+            width: 200px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 9;
+        }
+
+        .corner5{
+            width: 70%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 9;
+        }
+
+        .corner6{
+            width: 70%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 9;
+        }
+
+        .contentwd {
+            position: relative;
+            z-index: 99;
+        }
+
+        #Cover {
+            /*background-color: #ffc2d6;
+            background-image: linear-gradient(#ffc2d6, #f79cba);*/
+            background-image: url("./assets/bgatexture.jpg");
+            background-position: center;
+        }
+
+        #Couple {
+            background-image: url("./assets/bgatexture.jpg");
+            background-position: center;
+        }
+
+        #Eventwd {
+            background-image: url("./assets/bgatexture.jpg");
+            background-position: center;
+        }
+
+        #Moment {
+            background-image: url("./assets/bgatexture.jpg");
+            background-position: center;
+        }
+
+        #Quotewd {
+            background-image: url("./assets/bgatexture.jpg");
+            background-position: center;
+        }
+
+        .explainbride {
+            font-family: dosis;
+            color: #404040;
+        }
+
+        .bridefont {
+            font-family: litine;
+            font-size: 20px;
+            color: #404040;
+            animation : mempelai 5s infinite;
+        }
+        
+        @keyframes mempelai{
+            from {color : #404040;}
+            to {color : #ECAE37;}
+        }
+
+        .yearstory
+        {
+            animation : year 5s infinite;
+        }
+
+        @keyframes year{
+            from {color : #404040;}
+            to {color : #ECAE37;}
+        }
+        .fontfront {
+            font-family: aldine;
+            font-size: 70px;
+            color: white;
+            text-shadow: 2px 2px 2px grey;
+        }
+
+
+        /*** music box ***/
+        .music-box {
+        position: fixed;
+        width: 300px;
+        height: 160px;
+        z-index: 120;
+        bottom: 30px;
+        right: 30px;
+        }
+
+        @media (max-width: 991px) {
+        .music-box {
+            width: 50px;
+            height: 150px;
+            right: auto;
+            right:10px;
+            top:10px;
+        }
+        }
+
+        .music-box .music-holder {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: -30px;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+        }
+
+        .music-box .music-holder iframe {
+        width: 100%;
+        height: 100%;
+        }
+
+        .music-box button {
+        background: rgba(248, 246, 246, 0.85);
+        width: 50px;
+        line-height: 37px;
+        font-size: 18px;
+        font-size: 1rem;
+        color: #68192b;
+        border: 1px solid #e6e6e6;
+        outline: 0;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        }
+
+        .music-box button i{
+            font-size: 20px;
+        }
+
+        @media (max-width: 991px) {
+    
+            .music-box button {
+                right: 0;
+                left: auto;
+            }
+        }
+
+        .music-box .toggle-music-box {
+        top: -50px;
+        visibility: visible;
+        opacity: 1;
+
+        }
+
+
+        .music {
+        padding: 0;
+        background: none !important;
+        border: none !important;
+        position: relative;
+        top: 100px;
+        left: 180px;
+        }
+
+        .music:focus {
+        outline: none;
+        }
+
+        .fa-stack{
+            right:12px;
+            top: -65px;
+            width: 0;
+            height: 0;
+        }
+
+        .containerngunduhwd {
+            margin: auto;
+            text-align: center;
+            font-family: dosis;
+            font-size: 14px;
+            line-height: 1;
+        }
+
+        .containerngunduhwd table {
+            margin: auto;
+            text-align: left;
+        }
+
+        .containersatuwd {
+            margin: auto;
+            text-align: center;
+            font-family: dosis;
+            font-size: 14px;
+            line-height: 1;
+        }
+
+        .containersatuwd table {
+            margin: auto;
+            text-align: left;
+        }
+
+
+        .containerijabwd {
+            margin-left: 5%;
+            text-align: left;
+            font-family: dosis;
+            font-size: 14px;
+            line-height: 1;
+        }
+
+        .containerweddingwd {
+            margin-right: 5%;
+            text-align: right;
+            font-family: dosis;
+            font-size: 14px;
+            line-height: 1;
+        }
+
+        .containerlovegiftwd {
+            background:url(../assets/bgatexture.jpg);
+            text-align: center;
+            font-family: dosis;
+            font-size: 14px;
+            line-height: 1;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 6px;
+            width : 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        /* jam */
+        h1{
+        font-family: dosis;
+        color: #396;
+        font-weight: 100;
+        font-size: 40px;
+        margin: 40px 0px 20px;
+        }
+        #clockdiv{
+            font-family: dosis;
+            color: grey;
+            display: inline-block;
+            font-weight: 100;
+            text-align: center;
+            font-size: 30px;
+        }
+        #clockdiv > div{
+            padding: 1px;
+            border-radius: 3px;
+            /* background: #00BF96;  */
+            display: inline-block;
+        }
+        #clockdiv div > span{
+            padding: 1px;
+            border-radius: 3px;
+            /* background: #00816A;  */
+            display: inline-block;
+        }
+
+        #day {
+            font-size: 50px;
+            color: red;
+        }
+
+        .smalltext{
+            padding-top: 2px;
+            font-size: 24px;
+            font-family: Angelface;
+        }
+
+        .ornamentwdtop {
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .ornamentbg{
+            position: absolute;
+            z-index: -4;
+            top: 50px;
+            width: 30%;
+            opacity: 1;
+        }
+
+        .ornamentbg img {
+            width: 40%;
+        }
+
+        .ornamentwdtop img {
+            width: 60%;
+        }
+
+        .ornamentwdbtm img {
+            width: 40%;
+        }
+
+        .timeline h2 {
+            color: #404040;
+        }
+
+        @media screen and (min-width: 900px) {
+            .vidline {
+                padding-left: 30%;
+                padding-right: 30%;
+            }
+
+        }
+
+        @media  screen and (min-width: 600px) {
+            .cardevent {
+            margin-left: 20%;
+            margin-right: 20%;
+            }
+
+            .borderpair {
+                width: 60%;
+            }
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .corner1 {
+                width: 150px;
+            }
+
+            .corner2 {
+                width: 150px;
+            }
+
+            .corner3 {
+                width: 150px;
+            }
+
+            .corner4 {
+                width: 150px;
+            }
+
+            .corner5 {
+                width: 100%;
+            }
+
+            .corner6 {
+                width: 100%;
+            }
+
+            .ornamentbg img {
+                width: 100%;
+            }
+
+            .ornamentwdtop img {
+                width: 100%;
+            }
+
+            .ornamentwdbtm img {
+                width: 100%;
+            }
+
+            .containerijabwd {
+                margin-left: 10%;
+            }
+
+            .containerweddingwd {
+                margin-right: 10%;
+            }
+
+            .borderpair {
+                width: 100%;
+                margin: auto;
+            }
+
+        }
+
+        /* comment section */
+
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+
+        input[type=submit] {
+          background-color: #39473d;
+          width: 100%;       
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #527d55;
+        }
+
+        input[type=button] {
+          background-color: #39473d;
+          width: 20%;       
+          color: white;
+          padding-left: 12px;
+          padding-right: 12px;
+          padding-bottom: 12px;
+          padding-top: 12px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=button]:hover {
+          background-color: #527d55;
+        }
+
+        .wishcontainer {
+            text-align: left;
+            font-family: dosis;
+        }
+
+        .wishspace {
+          border-radius: 5px;
+          /* background-color: #f2f2f2; */
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 20px;
+          color: #404040;
+        }
+
+        .wishdisplay {
+            text-align: left;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: dosis;
+            max-height: 400px;
+            overflow: scroll;
+        }
+
+        .wishdisplayname {
+            font-weight: bold;
+        }
+
+        /* width */
+        .wishdisplay::-webkit-scrollbar {
+          width: 4px;
+        }
+
+        /* Handle */
+        .wishdisplay::-webkit-scrollbar-thumb {
+          background: #888;
+        }
+
+        /* Handle on hover */
+        .wishdisplay::-webkit-scrollbar-thumb:hover {
+          background: #555;
+        }
+
+        @media screen and (max-width: 1000px) {
+        .containerlovegiftwd 
+        {
+            width:85%;
+            padding-left:5%;
+            padding-right:5%;
+        }
+        input[type=button] {
+          background-color: #39473d;
+          width: 70%;       
+          color: white;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          
+        }
+
+        input[type=button]:hover {
+          background-color: #527d55;
+        }
+
+        .hormatkami
+        {
+            font-family: dosis;
+            font-size: 14px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+    }
+
+
+    .lineanim{
+        background:#404040; 
+        height:1.1px; 
+        margin-left: auto; 
+        margin-right: auto;
+        animation : lineone 3s infinite;
+    }
+
+    @keyframes lineone {
+    from {width: 0px;}
+    to {width: 120px;}
+    }
+
+/* Ngetes */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  font-family: dosis;
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 270px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.closemodal {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closemodal:hover,
+.closemodal:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: white;
+  color: black;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: white;
+  color: black;
+}
+/* Ngetes */
+
+    </style>
+
+    <script type='text/javascript'>
+        $(function(){
+        var overlay = $('<div id="overlay"></div>');
+        overlay.show();
+        overlay.appendTo(document.body);
+        $('.popup').show();
+        $('.close').click(function(){
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+        });
+
+
+        $('.x').click(function(){
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+        });
+        });
+    </script>
+</head>
+
+<body>
+        
+        <span itemprop="image" itemscope itemtype="image/jpeg"> 
+            <link itemprop="url" href="https://raw.githubusercontent.com/deviabtohi/deviabtohi.github.io/main/images/thumbnailweb.jpg"> 
+         </span>
+         
+        <div class='popup'>
+        <div class='cnt223'>
+            <p><img src="assets/de13vintopwd.png" width="60%" style="text-align: center"></p>
+            <p class="imgopenint"><img class='close' src="images/openerimg.png" style="text-align: center"></p>
+
+            <p style="text-align: center; line-height: normal;">Kepada Yth.<br><span style="font-size:12px">Bapak/Ibu/Saudara/i</span></p>
+
+            <p style="color: #404040; font-size: 20px; font-weight:bold; padding-bottom:10px; border-radius:4px; text-align: center" id="write"></p>
+        </p>
+        <p><a href='#' id="unmute-sound" class='close'>Buka Undangan</a></p>
+
+        <div style="clear: both;"></div>
+
+        <p><img src="assets/de13vintopwd.png" width="60%" style="transform: rotate(180deg); text-align: center"></p>
+        </div>
+
+    </div>
+
+    <!-- start button pesan via WA -->
+    <!-- <button onclick="window.location.href='https://api.whatsapp.com/send?phone=6282112538367&text=Kak%20Abtohi%0ASaya%20ingin%20pesan%20Undangan%20Digital%20Pernikahan%20seperti%20Demo13'" id="myBtn4" title="Pesan Undangan"><i class="w3-bar-block fa fa-whatsapp"></i> <span style="font-size:12px">Pesan</span></button> -->
+    <!-- end button pesan via WA -->
+
+    <div class="music-box">
+        <button class="music-box-toggle-btn">
+            <!--
+                <i class="fa fa-music"></i> -->
+            <audio id='song' loop>
+                <source src="assets/Take My Hand.mp3">
+            </audio>
+
+            <button type="button" class="music" id="unmute2-sound">
+                <img border="0" alt="" src="assets/soundgoldmusicoffwd.png"
+                    width="20" height="20">
+            </button>
+            <button type="button" class="music" id="mute-sound">
+                <img border="0" alt="" src="assets/soundgoldmusicwd.png"
+                    width="20" height="20">
+            </button>
+            
+        </button>
+    </div>
+
+    <div class="iconbar">
+        <a class="tablink" onclick="openPage('Cover', this, '#ffd4ed')" id="defaultOpen"><img src="assets/de13tab1cover.png" width="35"></a>
+        <a class="tablink" onclick="openPage('Couple', this, '#ffd4ed')"><img src="assets/de13tab2couple.png" width="35"></a>
+        <a class="tablink" onclick="openPage('Eventwd', this, '#ffd4ed')"><img src="assets/de13tab3event.png" width="35"></a>
+        <a class="tablink" onclick="openPage('Quotewd', this, '#ffd4ed')"><img src="assets/de13tab5story.png" width="35"></a>
+    </div>
+
+
+    <div id="Cover" class="tabcontent">
+        <!-- <h3>Home</h3>
+        <p>Home is where the heart is..</p> -->
+
+        <div class="corner1">
+            <img src="assets/de13oraset1.png" alt="" width="100%">
+        </div>
+
+        <div class="corner2">
+            <img src="assets/de13oraset2.png" alt="" width="100%">
+        </div>
+
+        <div class="corner3">
+            <img src="assets/de13oraset3.png" alt="" width="100%">
+        </div>
+
+        <div class="corner4">
+            <img src="assets/de13oraset4.png" alt="" width="100%">
+        </div>
+
+        <div class="corner5">
+            <img src="assets/de13oraset5.png" alt="" width="100%">
+        </div>
+
+        <div class="corner6">
+            <img src="assets/de13oraset6.png" alt="" width="100%">
+        </div>
+
+
+        <div id="homewd" class="contentwd">
+            <div class="ornamentwdtop" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vintopwd.png" alt="" style="display: inline-block;" width="100%">
+            </div>
+<div class="content4pad">
+            <div>
+                <br>
+                <h2 style="color: #404040; font-size: 35px; font-family: Angelface; padding-top: 10px">The Wedding<br><span style="font-size:12px" class="explainbride">Official Invitation</span></h2>
+            </div>
+                <div class="borderpair">
+                        <div class="namepair" style="line-height: 210%; padding-top: 70px">
+                            <div style="padding-right:40px"><span class="fontfront">Devi</span></div>
+                            <div class="" style="color:white">&</div>
+                            <div style="padding-left:40px; padding-top:5px;"><span class="fontfront">Abtohi</span></div>
+                        </div> 
+                        <div class="behindcname w3-spin"><img src="assets/de13namecirclepair.png"></div>  
+                </div>    
+                <p style="color: #404040; font-weight:bold; padding-top:10px; padding-bottom:10px; border-radius:4px" id="write"></p>
+            <div>
+                <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=The%20Wedding%20of%20Devi%20and%20Abtohi&dates=20210319T010000Z/20210319T020000Z&details=The%20Wedding%20of%20Devi%20and%20Abtohi&location=Sipare%20Pare%20Tengah%2CMarbau%2CLabura%2CSumut" target="_blank" style="background-color: #39473d; font-family: dosis; font-size: 18px; color: white; padding: 18px 30px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>SaveTheDate</strong></a>
+                <p style="color: #404040; font-size: 30px; font-family: Angelface; padding-top: 1px">| 19  Maret  2021 | <br><span style="font-size:12px"
+                        class="explainbride">Labura, Sumatera Utara</span></p>
+            </div>
+
+            <div class="ornamentbg" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13swirlwd.png" alt="" style="display: inline-block; opacity: 0.3">
+            </div>
+</div>
+
+            <div class="ornamentwdbtm" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vinbtmwd.png" alt="" style="display: inline-block;">
+            </div>
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+
+    </div>
+
+    <div id="Couple" class="tabcontent">
+        <!-- <h3>News</h3>
+        <p>Some news this fine day!</p> -->
+
+        <div class="corner1">
+            <img src="assets/de13oraset1.png" alt="" width="100%">
+        </div>
+
+        <div class="corner2">
+            <img src="assets/de13oraset2.png" alt="" width="100%">
+        </div>
+
+        <div class="corner3">
+            <img src="assets/de13oraset3.png" alt="" width="100%">
+        </div>
+
+        <div class="corner4">
+            <img src="assets/de13oraset4.png" alt="" width="100%">
+        </div>
+
+        <div class="corner5">
+            <img src="assets/de13oraset5.png" alt="" width="100%">
+        </div>
+
+        <div class="corner6">
+            <img src="assets/de13oraset6.png" alt="" width="100%">
+        </div>
+
+        <div id="bridewd" class="contentwd">
+
+            <div class="ornamentwdtop" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vintopwd.png" alt="" style="display: inline-block;">
+            </div>
+
+<div class="content4pad">
+            <div>
+                <p style="font-size: 30px; font-family: Angelface; padding-top: 30px; color: #404040">Bismillahirrahmanirrahim</p>
+                <div class="explainbride">Assalamu`alaikum Warahmatullahi Wabarakatuh<br><br>
+                    Maha Suci Allah<br>yang telah menciptakan makhluk-Nya<br>berpasang-pasangan.<br>Ya Allah semoga ridho-Mu tercurah<br>mengiringi pernikahan putra-putri kami:</div>
+            </div>
+            <br>
+            <div><img src="images/wdbride.png" width="40%" alt=""><br><span class="bridefont">Devi Kumala Sari, S.Stat<span style="font-size: 14px"></span></span>
+            </div>
+            <div class="explainbride">Putri kedua dari<br>Bpk. Sumardi & Ibu Poniyem</div>
+            
+            <br>
+            <div class="explainbride">dan</div>
+            <br>
+            <div><img src="images/wdgroom.png" width="40%" alt=""><br><span class="bridefont">Slamet Abtohi, S.Stat<span style="font-size: 14px"></span></span>
+            </div>
+            <div class="explainbride">Putra pertama dari<br>Bpk. Slamet Musafi'i & Ibu Siti Musarofah</div>
+            <br>
+            <br>
+            <br>
+</div>
+            <div class="ornamentwdbtm" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vinbtmwd.png" alt="" style="display: inline-block;" width="100%">
+            </div>
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+
+
+    </div>
+
+    <div id="Eventwd" class="tabcontent">
+
+        <div class="corner1">
+            <img src="assets/de13oraset1.png" alt="" width="100%">
+        </div>
+
+        <div class="corner2">
+            <img src="assets/de13oraset2.png" alt="" width="100%">
+        </div>
+
+        <div class="corner3">
+            <img src="assets/de13oraset3.png" alt="" width="100%">
+        </div>
+
+        <div class="corner4">
+            <img src="assets/de13oraset4.png" alt="" width="100%">
+        </div>
+
+        <div class="corner5">
+            <img src="assets/de13oraset5.png" alt="" width="100%">
+        </div>
+
+        <div class="corner6">
+            <img src="assets/de13oraset6.png" alt="" width="100%">
+        </div>
+
+
+        <div id="homewd" class="contentwd">
+
+            <div class="ornamentwdtop" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vintopwd.png" alt="" style="display: inline-block;" width="100%">
+            </div>
+<div class="content4pad">
+            <br>
+            <h3 style="font-family: Angelface; font-size: 35px; color: #404040">Event</h3>
+            <p class="explainbride">The Happy Day!</p>
+            
+            <p class="lineanim"></p>
+            <br>
+            <p style="font-family: dosis; color: #404040">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, kami mengundang Bapak/Ibu/Saudara(i) untuk menghadiri acara pernikahan putra-putri kami</p>
+
+
+            <div class="containersatuwd" style="display: none;">
+                <div>
+                    <p style="font-size: 18px; font-family: dosis; padding-top: 0px"><b>Akad Pernikahan</b></p>
+                </div>
+
+                <table>
+                    <tr>
+                        <td><i class="fa fa-calendar"></i></td>
+                        <td>Jumat, 19 Maret 2021</td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-clock-o"></i></td>
+                        <td>08.00 WIB - selesai</td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-map-marker"></i></td>
+                        <td>Kediaman Mempelai Wanita</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Desa Sipare-Pare Tengah,</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Kec. Marbau, Kab. Labura</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Sumatera Utara</td>
+                    </tr>
+                </table>
+            </div>
+            <!--<br>-->
+            <!--<br>-->
+
+        <div class="cardevent">
+            <div class="row">
+              <div class="column">
+                    <div class="card">
+
+                        <div class="containerijabwd">
+
+                            <table style="color: #404040">
+                                <tr>
+                                    <th style="width: 20%"><img src="assets/de13wdakad.png" width="100%"></th>
+                                    <th></th>
+                                    <th style="width: 80%"><p style="font-size: 18px; font-family: dosis; color: #404040"><b>Akad Nikah</b></p></th>
+                                </tr>
+                                <!-- <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>(Akad Nikah Khusus Keluarga)</td>
+                                </tr> -->
+                                <tr>
+                                    <td></td>
+                                    <td><i class="fa fa-calendar" style="padding-right:5px;"></i></td>
+                                    <td>Jum'at, 19 Maret 2021</td>
+                                </tr>
+                                <tr>
+                                   <td></td>
+                                   <td><br></td>
+                                   <td><br></td>
+                                </tr>
+                                <tr>
+                                   <td></td>
+                                   <td><i class="fa fa-clock-o" style="padding-right:5px;"></i></td>
+                                   <td>08.00 WIB</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><br></td>
+                                    <td><br></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><i class="fa fa-map-marker" style="padding-right:5px;"></i></td>
+                                    <td>di Kediaman Mempelai Wanita</td>
+                                </tr>
+                                <tr>
+                                   <td></td>
+                                   <td></td>
+                                   <td>Desa Sipare-Pare Tengah, Dusun VI (Kampung Enam)</td>
+                                </tr>
+                                <tr>
+                                   <td></td>
+                                   <td></td>
+                                   <td>Kec. Marbau, Kab. Labuhan Batu Utara</td>
+                                </tr>
+                                <tr>
+                                   <td></td>
+                                   <td></td>
+                                   <td>Sumatera Utara</td>
+                                </tr>
+                                <tr>
+                                   <td></td>
+                                   <td></td>
+                                   <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+              </div>
+
+              <div class="column">
+                    <div class="card">
+                          <div class="containerweddingwd">
+
+                                <table align="right" style="color: #404040">
+                                    <tr>
+                                        <th  align="right" style="width: 80%;"><p style="font-size: 18px; font-family: dosis; color: #404040"><b>Resepsi Pernikahan</b></p></th>
+                                        <th></th>
+                                        <th style="width: 20%"><img src="assets/de13wdresepsi.png" width="100%"></th>
+                                    </tr>
+                                    <tr align="right">
+                                        <td>Jum'at, 19 Maret 2021</td>
+                                        <td><i class="fa fa-calendar" style="padding-left:5px;"></i></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><br></td>
+                                        <td><br></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr align="right">
+                                        <td>09.00 WIB - Selesai</td>
+                                        <td><i class="fa fa-clock-o" style="padding-left:5px;"></i></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><br></td>
+                                        <td><br></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr align="right">
+                                        <td>di Kediaman Mempelai Wanita</td>
+                                        <td><i class="fa fa-map-marker" style="padding-left:5px;"></i></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr align="right">
+                                        <td>Desa Sipare-Pare Tengah, Dusun VI (Kampung Enam),</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr align="right">
+                                        <td>Kec. Marbau, Kab. Labuhan Batu Utara,</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr align="right">
+                                        <td>Sumatera Utara</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr align="right">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr align="right">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                        <div style="clear: both;"></div>
+                    </div>
+                    </div>
+              </div>
+            </div>
+        </div>   
+                    
+            <div style="clear:both"></div>
+
+            <br>
+            <div id="clockdiv">
+                <div>
+                    <span class="days" id="day"></span>
+                    <div class="smalltext">Days</div>
+                </div>
+                <div>
+                    <span class="hours" id="hour"></span>
+                    <div class="smalltext">Hours</div>
+                </div>
+                <div>
+                    <span class="minutes" id="minute"></span>
+                    <div class="smalltext">Minutes</div>
+                </div>
+                <div>
+                    <span class="seconds" id="second"></span>
+                    <div class="smalltext">Seconds</div>
+                </div>
+            </div>
+
+            <p id="demo"></p>
+
+            <p class="explainbride">Merupakan suatu kehormatan dan kebahagiaan<br>bagi kami apabila Bapak/Ibu/Saudara(i)<br>berkenan hadir untuk memberikan do'a restu<br>kepada kedua mempelai.</p>
+
+            <br>
+            <br>
+
+            <div style="width:90%; margin-left: auto; margin-right: auto; border-radius: 6px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102663.6939997594!2d98.59743975773485!3d2.40496803243899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMTQnMDYuNiJOIDk5wrA1NCcxOC44IkU!5e0!3m2!1sen!2sid!4v1614470815231!5m2!1sen!2sid" style="border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <br>
+            <div><a href="https://goo.gl/maps/MBMXEVVReJYYLdrV9" target="_blank" style="background-color: #39473d; font-family: dosis; font-size: 18px; color: white; padding: 18px 30px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>OpenMap Resepsi</strong></a>
+            </div>
+            <br>
+</div>
+
+            <div class="ornamentwdbtm" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vinbtmwd.png" alt="" style="display: inline-block;" width="100%">
+            </div>
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+
+    </div>
+
+    <div id="Moment" class="tabcontent">
+
+        <div class="corner1">
+            <img src="assets/de13oraset1.png" alt="" width="100%">
+        </div>
+
+        <div class="corner2">
+            <img src="assets/de13oraset2.png" alt="" width="100%">
+        </div>
+
+        <div class="corner3">
+            <img src="assets/de13oraset3.png" alt="" width="100%">
+        </div>
+
+        <div class="corner4">
+            <img src="assets/de13oraset4.png" alt="" width="100%">
+        </div>
+
+        <div class="corner5">
+            <img src="assets/de13oraset5.png" alt="" width="100%">
+        </div>
+
+        <div class="corner6">
+            <img src="assets/de13oraset6.png" alt="" width="100%">
+        </div>
+
+
+
+
+        <div id="homewd" class="contentwd">
+
+            <div class="ornamentwdtop" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vintopwd.png" alt="" style="display: inline-block;" width="100%">
+            </div>
+<!--Taruh sini -->
+            <div>
+                <br>
+                <div class="ornamentwdbtm" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vinbtmwd.png" alt="" style="display: inline-block;" width="100%">
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <br>
+
+        </div>
+    </div>
+
+    <div id="Quotewd" class="tabcontent">
+
+        <div class="corner1">
+            <img src="assets/de13oraset1.png" alt="" width="100%">
+        </div>
+
+        <div class="corner2">
+            <img src="assets/de13oraset2.png" alt="" width="100%">
+        </div>
+
+        <div class="corner3">
+            <img src="assets/de13oraset3.png" alt="" width="100%">
+        </div>
+
+        <div class="corner4">
+            <img src="assets/de13oraset4.png" alt="" width="100%">
+        </div>
+
+        <div class="corner5">
+            <img src="assets/de13oraset5.png" alt="" width="100%">
+        </div>
+
+        <div class="corner6">
+            <img src="assets/de13oraset6.png" alt="" width="100%">
+        </div>
+
+
+
+
+        <div id="homewd" class="contentwd">
+
+            <div class="ornamentwdtop" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vintopwd.png" alt="" style="display: inline-block;" width="100%">
+            </div>
+<div class="content4pad">
+            <br>
+            <h3 style="font-family: Angelface; font-size: 35px; color: #404040;">Our Love Story</h3>
+            <p class="explainbride">--</p>
+            <p class="explainbride">Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.</p>
+            <p class="explainbride"><b>QS. Ar-Rum: 21</b></p>
+            <p class="explainbride">--</p>
+
+            <!-- !PAGE CONTENT! -->
+            <div class="w3-main w3-content" style="max-width:1600px;margin-top:20px">
+                
+                <!-- Timeline Start                 -->
+                <div class="timeline">
+                      <div class="container left">
+                        <div class="content">
+                            <div class="bg1content">
+                              <h2 class="yearstory"><span style="font-size: 14px"></span>2013</h2>
+                              <p>"Pertama kali kami bertemu di kampus Universitas Islam Indonesia (UII), kuliah dalam satu gedung Fakultas MIPA dan satu jurusan Statistika, kami tidak berkenalan secara langsung karena berbeda kelas."</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="container right">
+                        <div class="content">
+                            <div class="bg1content">
+                              <h2 class="yearstory"><span style="font-size: 14px"></span>2017</h2>
+                              <p>"Selama masa kuliah terkadang kami hanya bertegur sapa sesaat jika kebetulan berpapasan di jalan, tidak ada kedekatan dan tidak ada hubungan, hingga akhirnya kami lulus di tahun yang sama dan masing-masing bekerja di tempat dan pulau yang berbeda."</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="container left">
+                        <div class="content">
+                            <div class="bg1content">
+                              <h2 class="yearstory"><span style="font-size: 14px"></span>2020</h2>
+                              <p>"Setelah tiga tahun lebih berlalu, tidak pernah bertemu, momen mengejutkan ketika Abtohi mengirim pesan pribadi melalui akun sosial media. Itulah awal mula Abtohi bertanya banyak hal mengenai visi misi, adat istiadat, dan lain sebagainya. Hingga kami menemukan kecocokan satu sama lain dan Abtohi menyatakan keseriusan untuk mengajak saya menikah."</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="container right">
+                        <div class="content">
+                            <div class="bg1content">
+                              <h2 class="yearstory"><span style="font-size: 14px"></span>2021</h2>
+                              <p>"Abtohi bersama keluarga datang ke rumah untuk melamar saya, dan sebulan setelahnya tiba di hari kebahagiaan kami, kami akan memulai membangun rumah tangga bersama, semoga Allah selalu memberikan keberkahan dan kebahagiaan untuk kami."</p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+
+                <!-- timeline end -->
+
+                <br>
+                <div class="containerlovegiftwd">
+                    <h2 style="color: #404040; font-size: 30px; font-family: Angelface; padding-top: 20px">Love Gift
+                        <br>
+                        <span style="font-size:15px; line-height: 25px;" class="explainbride">
+                            <p>Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui :</p>
+                        </span>
+                    </h2>
+                    <br>
+                    <p>Bank BCA</p>
+                    <p>No. Rekening, Atas Nama</p>
+                    <p style="margin-bottom: 10px; padding-bottom: 20px; color:#BD742E"><b id="rek">2720072591</b>, <b>Slamet Abtohi</b></p>
+                    <input type="button" onclick="copyrek()" value="Salin Nomor Rekening" id="copyclipboard" style="margin-bottom:10px;">
+                    <br><br>
+                    <p>atau melalui :</p>
+                    <p><b>E-Wallet</b></p><br>
+                        <img src="./images/logo-ovo.png" width="80px" height="32.96px" style="margin-right:20px;" id="logoovo">
+                        <img src="./images/linkaja.png" width="80px" height="24.36548223px" id="logolinkaja">
+                    <br><br>
+                    <p><b>-Terima kasih-</b></p><br>
+                </div>
+
+                <br>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div id="modal-ovo">
+            <div class="modal-header">
+                <span class="closemodal">&times;</span>
+                <h4><img src="./images/logo-ovo.png" width="80px" height="32.96px" style="margin-right:20px;" id="logoovo"></h4>
+                <p>Silahkan scan qrcode berikut :</p>
+            </div>
+            <div class="modal-body">
+                <img src="./images/ovoqr.jpg" width="80%">
+            </div>
+            <div class="modal-footer">
+                <p>0821-1253-8367</p>
+            </div>
+        </div>
+
+        <div id="modal-linkaja">
+                <div class="modal-header">
+                    <span class="closemodal">&times;</span>
+                    <h4><img src="./images/linkaja.png" width="80px" height="24.36548223px" id="logolinkaja"></h4>
+                    <p>Silahkan scan qrcode berikut :</p>
+                </div>
+                <div class="modal-body">
+                    <img src="./images/linkajaqr.jpg" width="80%">
+                </div>
+                <div class="modal-footer">
+                    <p>0821-1253-8367</p>
+                </div>
+        </div>
+    </div>
+</div>
+
+                <div class="">
+                    <p class="explainbride">Ucapan Selamat & Doa untuk<h4 style="color: #404040; font-size: 30px; font-family: Angelface;">Devi & Abtohi</h4></p>
+                </div>
+
+                <div class="wishspace">
+                    <div class="wishcontainer">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="nama" placeholder="Nama.." required>
+
+                        <label for="ucap">Ucapan</label>
+                        <textarea id="ucap" name="ucap" placeholder="Ucapan Doa & Harapan.." style="height:100px" required></textarea>
+                        <input type="submit" name="submit" value="Kirim Via Whatsapp" onclick="getLinkWhatsapp()">
+                    </div>
+                    <div class="hormatkami">
+                        <br>
+                        <h4 style="color: #404040; font-size: 30px; font-family: Angelface;">Kami Yang Berbahagia</h4>
+                        <p>Keluarga Bapak Sumardi<br>& Ibu Poniyem</p>
+                        <p style="font-size:20px">- & -</p>
+                        <p>Keluarga Bapak Slamet Musafi'i<br>& Ibu Siti Musarofah</p>
+                    </div>
+               </div>
+
+            </div>
+</div>
+            <div>
+                <div class="ornamentwdbtm" style="width: 100%; margin: 0px; text-align: center;">
+                <img src="assets/de13vinbtmwd.png" alt="" style="display: inline-block;" width="100%">
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <br>
+
+        </div>
+    </div>
+
+    <script>
+
+// Get the modal
+var modal       = document.getElementById("myModal");
+var logoovo     = document.getElementById("logoovo");
+var logolinkaja = document.getElementById("logolinkaja");
+var movo        = document.getElementById("modal-ovo")
+var mlinkaja    = document.getElementById("modal-linkaja")
+var spanovo     = document.getElementsByClassName("closemodal")[0]
+var spanlinkaja = document.getElementsByClassName("closemodal")[1]
+
+logoovo.onclick = function() {
+  modal.style.display    = "block";
+  movo.style.display     = "block"
+  mlinkaja.style.display = "none";
+}
+
+logolinkaja.onclick      = function() {
+  modal.style.display    = "block";
+  movo.style.display     = "none";
+  mlinkaja.style.display = "block"
+}
+
+spanovo.onclick = function() {
+  modal.style.display    = "none";
+  movo.style.display     = "none";
+  mlinkaja.style.display = "none";
+}
+
+spanlinkaja.onclick = function() {
+  modal.style.display    = "none";
+  movo.style.display     = "none";
+  mlinkaja.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display    = "none";
+    movo.style.display     = "none";
+    mlinkaja.style.display = "none";
+  }
+}
+
+        // %20 mean space in link
+        // If you already had an array then you just join them with '%20'
+        // easy right
+
+        function getLinkWhatsapp() {
+        var yourNumber = "6282112538367"
+        var yourName   = document.getElementById("nama").value;
+        var yourMessage = document.getElementById("ucap").value;
+        
+        number = yourNumber
+        nama   = yourName.split(' ').join('%20')
+        message = yourMessage.split(' ').join('%20')
+        window.location.href='https://api.whatsapp.com/send?phone=' + number + '&text=from%20*'+nama+'*%0a%0a*Hi%20Devi%20dan%20Tohi*,%0a%0a'+ message
+        }
+
+        function copyrek()
+        {
+            var rek = document.getElementById("rek").innerText;
+            var myTemporaryInputElement = document.createElement("input");
+                myTemporaryInputElement.type = "text";
+                myTemporaryInputElement.value = rek;
+                document.body.appendChild(myTemporaryInputElement);
+                myTemporaryInputElement.select();
+                document.execCommand("Copy");
+                document.body.removeChild(myTemporaryInputElement);
+                if(document.getElementById("copyclipboard").value == "Nomor Rekening Disalin")
+                {document.getElementById("copyclipboard").value = "Salin Nomor Rekening"}
+                else{document.getElementById("copyclipboard").value = "Nomor Rekening Disalin"}
+
+        }
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+
+
+            document.getElementById('mute-sound').style.display = 'none';
+            document.getElementById('unmute-sound').addEventListener('click', function (event) {
+                document.getElementById('unmute2-sound').style.display = 'none';
+                document.getElementById('mute-sound').style.display = 'inline-block';
+                document.getElementById('song').play();
+            });
+            
+            document.getElementById('unmute2-sound').addEventListener('click', function (event) {
+                document.getElementById('unmute2-sound').style.display = 'none';
+                document.getElementById('mute-sound').style.display = 'inline-block';
+                document.getElementById('song').play();
+            });
+
+            document.getElementById('mute-sound').addEventListener('click', function (event) {
+                document.getElementById('mute-sound').style.display = 'none';
+                document.getElementById('unmute2-sound').style.display = 'inline-block';
+                document.getElementById('song').pause();
+            });
+
+
+        // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+
+        var deadline = new Date("march 19, 2021 08:00:00").getTime();
+
+            var x = setInterval(function () {
+
+                var now = new Date().getTime();
+                var t = deadline - now;
+                var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((t % (1000 * 60)) / 1000);
+                document.getElementById("day").innerHTML = days;
+                document.getElementById("hour").innerHTML = hours;
+                document.getElementById("minute").innerHTML = minutes;
+                document.getElementById("second").innerHTML = seconds;
+                if (t < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "HAPPY WEDDING";
+                    document.getElementById("day").innerHTML = '0';
+                    document.getElementById("hour").innerHTML = '0';
+                    document.getElementById("minute").innerHTML = '0';
+                    document.getElementById("second").innerHTML = '0';
+                }
+            }, 1000);
+
+
+            function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }
+
+            var sn = getParameterByName('to');
+
+            document.getElementById("write").innerHTML = sn;
+
+    </script>
+    <script type="text/javascript" src="atemplate/jquery-1.10.1.min.js"></script>
+
+    <!-- <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn4");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+    </script> -->
+
+
+
+</body>
+
+</html>
